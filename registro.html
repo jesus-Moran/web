@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario de Registro</title>
+</head>
+
+<body bgcolor="#9DE7F3">
+<form method="post" enctype="multipart/form-data" name="form1" id="form1" style="text-align: center">
+  <h1 style="color: #Efb810">FORMULARIO DE REGISTRO</h1>
+  <p>
+    <label for="fileField"><span style="text-align: right">FOTO:</span></label>
+    <span style="text-align: right">
+    <input type="file" name="fileField" id="fileField">
+  </span></p>
+  <table width="800" border="0" align="center">
+    <tbody>
+      <tr>
+        <td>FECHA:
+        <input type="date" name="date6" id="date6"></td>
+        <td>Puesto Solicitado:
+        <input type="text" name="textfield10" id="textfield10"></td>
+        <td>Sueldo Deseado:
+          <input type="number" name="number3" id="number3"></td>
+      </tr>
+    </tbody>
+  </table>
+  <p>&nbsp;</p>
+  <h2 style="text-align: center">DATOS PERSONALES:</h2>
+  <table width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td><label for="ap">Apelido Paterno:</label>
+        <input type="text" name="ap" id="ap"></td>
+        <td><label for="n">Apellido Materno:</label>
+        <input type="text" name="am" id="textfield3"></td>
+        <td><label for="dom">Nombres:</label>
+        <input type="text" name="n" id="textfield4"></td>
+        <td><label for="ed">Edad:</label>
+        <input name="ed" type="number" id="ed" max="4"></td>
+        <td><label for="email">Email:</label>
+        <input type="email" name="email" id="email"></td>
+      </tr>
+      <tr>
+        <td><label for="textfield6">Domiclio:</label>
+        <input type="text" name="dom" id="textfield6"></td>
+        <td><label for="textfield7">Colonia:</label>
+        <input type="text" name="col" id="textfield7"></td>
+        <td><label for="cd">Codigo Postal:</label>
+        <input type="number" name="cd" id="cd"></td>
+        <td colspan="2"><label for="tel">Telefono:</label>
+        <input type="tel" name="tel" id="tel"></td>
+      </tr>
+      <tr>
+        <td><label for="date2">Fecha de nacimiento:</label>
+        <input type="date" name="date7" id="date2"></td>
+        <td><label for="number3">Estatura:</label>
+        <input type="number" name="number4" id="number3"></td>
+        <td><label for="number4">Peso:</label>
+        <input type="number" name="number" id="number4"></td>
+        <td colspan="2"><span style="text-align: center">Sexo</span>:
+          <p>
+            <label>
+              <input type="radio" name="RadioGroup1" value="opción" id="RadioGroup1_0">
+              Masculino</label>
+            <br>
+            <label>
+              <input type="radio" name="RadioGroup1" value="opción" id="RadioGroup1_1">
+              Femenino</label>
+            <br>
+        </p></td>
+      </tr>
+      <tr>
+        <td colspan="2">Estilo que le interesa:
+          <table width="200">
+            <tr>
+              <td><label>
+                <input type="checkbox" name="CheckboxGroup1" value="casilla de verificación " id="CheckboxGroup1_0">
+                Ballet
+              </label></td>
+            </tr>
+            <tr>
+              <td><label>
+                <input type="checkbox" name="CheckboxGroup1" value="casilla de verificación " id="CheckboxGroup1_1">
+                Bachata
+              </label></td>
+            </tr>
+            <tr>
+              <td><label>
+                <input type="checkbox" name="CheckboxGroup1" value="casilla de verificación " id="CheckboxGroup1_2">
+                Cancán </label></td>
+            </tr>
+            <tr>
+              <td><label>
+                <input type="checkbox" name="CheckboxGroup1" value="casilla de verificación " id="CheckboxGroup1_3">
+                Baile de salon<br>
+              </label></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="CheckboxGroup1_" value="casilla de verificación " id="CheckboxGroup1_4">
+Danza contemporanea</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="CheckboxGroup1_2" value="casilla de verificación " id="CheckboxGroup1_5">
+              Flamenco</td>
+            </tr>
+        </table></td>
+        <td>Local mas cercano:
+          <table width="200">
+            <tr>
+              <td><label>
+                <input type="checkbox" name="CheckboxGroup1_3" value="casilla de verificación " id="CheckboxGroup1_6">
+                Torres </label></td>
+            </tr>
+            <tr>
+              <td><label>
+                <input type="checkbox" name="CheckboxGroup1_3" value="casilla de verificación " id="CheckboxGroup1_7">
+                Misiones </label></td>
+            </tr>
+        </table></td>
+        <td colspan="2">&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>DOCUMENTACION:</h2>
+  <table width="600" border="0" align="center">
+    <tbody>
+      <tr>
+        <td width="160"><label for="number2">CURP:</label>
+        <input type="number" name="number2" id="number2"></td>
+        <td width="251"><p>
+          <label for="fileField6">Credencial oficial:</label>
+          <input type="file" name="fileField6" id="fileField6">
+      </p></td>
+        <td width="167"><label for="fileField7">Recibo de pago:</label>
+        <input type="file" name="fileField7" id="fileField7"></td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>&nbsp;</h2>
+  <p>Cuenta con experencia previa en la danza?
+    <textarea name="textarea" id="textarea"></textarea>
+  </p>
+  <p>
+    <input type="button" name="button" id="button" value="ENVIAR FORMULARIO">
+    <input type="button" name="button2" id="button2" value="LIMPIAR">
+  </p>
+  <p>&nbsp;</p>
+  <table width="200" border="3" align="center">
+    <tbody>
+      <tr>
+        <td width="161" style="text-align: center"><a href="index.html">INICIO</a></td>
+      </tr>
+    </tbody>
+  </table>
+  <p>&nbsp;</p>
+  <p><marquee behavior="alternate">
+    <img src="bn.jpg" width="300" height="152" alt=""/>
+  </marquee>
+</p>
+  <p style="text-align: left">&nbsp;</p>
+  <p>&nbsp;</p>
+</form>
+</body>
+</html>
